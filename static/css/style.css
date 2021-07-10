@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+  position: fixed;  
+  width: 100%;
+  background: white;
+  z-index: 10;
+  top: 0;
+}
+
+/* The styles for the parallax */
+.hero {
+  position: relative;
+  height: 550px;
+  padding: 20px;
+  margin: 0;
+  background:white;
+  background-image: url("background.jpg");
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.hero h1 {
+  margin-top: 200px;
+  font-family: monospace;
+  font-size: 20;
+  font-weight: 500;
+  letter-spacing: .065em;
+  animation: title 1.2s forwards linear;
+}
+
+.textbox-light {
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.textbox-blue {
+  background-color: #dde7f8;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+.carousel-inner{
+  background-color: #dde7f8;
+}
+
+hr {
+  margin: 4rem 0;
+  color: grey;
+  background-color: grey;
+  border: 0;
+  opacity: .25;
+  height:2px
+}
+
+img {
+  vertical-align: middle;
+}
+
+.rounded-circle {
+  border-radius: 50%!important;
+}
